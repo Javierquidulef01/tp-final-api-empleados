@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 fecha.setMinutes(fecha.getMinutes() + fecha.getTimezoneOffset());
                 empleado.birthday = fecha.toString();
                 empleado.id = listaEmpleados.length+1;
-                insertarEmpleados([empleado]);
+                agregarEmpleados([empleado]);
             } else {
                 aplicarCambios(empleado);
             }
